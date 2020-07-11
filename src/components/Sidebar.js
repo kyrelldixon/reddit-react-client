@@ -3,7 +3,7 @@ import { FaReddit } from "react-icons/fa";
 
 export default function Sidebar() {
   return (
-    <aside className="bg-white h-screen w-64 flex-shrink-0">
+    <aside className="hidden bg-white h-screen w-64 flex-shrink-0 lg:block">
       <header className="flex justify-center items-center py-6">
         <FaReddit className="text-orange text-5xl mr-2" />
         <span className="text-2xl">Reddit</span>
