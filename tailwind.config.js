@@ -10,10 +10,10 @@ module.exports = {
     colors: {
       orange: "#fd4500",
       gray: {
-        lightest: "fbfcfe",
-        lighter: "f4f5fa",
-        light: "898ea2",
-        normal: "808080",
+        lightest: "#fbfcfe",
+        lighter: "#f4f5fa",
+        light: "#898ea2",
+        normal: "#808080",
         dark: "#464855",
       },
       white: "#fff",
