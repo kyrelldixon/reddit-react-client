@@ -7,7 +7,7 @@ export default function Feed() {
   return (
     <main className="shadow bg-white rounded p-8 space-y-8 overflow-y-scroll h-full">
       {items.map((item, i) => (
-        <FeedItem item={item} />
+        <FeedItem key={i} item={item} />
       ))}
     </main>
   );
