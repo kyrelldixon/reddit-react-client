@@ -5,9 +5,9 @@ import Feed from "./Feed";
 
 function App() {
   return (
-    <div className="font-body flex md:fixed h-full w-full">
+    <div className="flex w-full h-full font-body md:fixed">
       <Sidebar />
-      <div className="bg-gray-lightest h-full w-full px-4 md:px-12">
+      <div className="w-full h-full px-4 bg-gray-lightest md:px-12">
         <Header />
         <Feed />
       </div>
