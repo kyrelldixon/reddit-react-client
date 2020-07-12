@@ -12,6 +12,7 @@ export default function Feed() {
       submittedAt: data.created_utc * 1000,
       upvotes: data.ups,
       thumbnail: data.thumbnail,
+      permalink: data.permalink,
     }));
   });
   return (
